@@ -12,9 +12,13 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-  <header>
-    <h1>Huddle</h1>
-    <button class="buttons one-edge-shadow">
+  <header class="top-bar">
+    <div>
+      <img class="icon-chat" src="./images/icons/chat.svg" alt="">
+      <h1 class="title">Huddle</h1>
+
+    </div>
+    <button>
       Try it free
     </button>
   </header>
@@ -46,50 +50,61 @@
   </div>
 <div class="msg-container-box Grow-Together">
 
-  <img class='background' src="./images/bg-section-top-mobile-1.svg" alt="" srcset=""> 
+<img class='background' src="./images/bg-section-top-mobile-1.svg" alt="" srcset=""> 
 <div class="Grow-Together">
   <img class="picStyle" src="./images/illustration-grow-together.svg" alt="" srcset="">
-  <h5 class="title">Grow Together</h5>
-  <p>
+  <h3 class="title">Grow Together</h3>
+  <p class="msg-content">
   Generate meaningful discussions with your audience and build a strong, loyal community. 
   Think of the insightful conversations you miss out on with a feedback form. </p>
 
 </div>
-<img class="background-bottom" src="./images/bg-section-top-mobile-2.svg" alt="" srcset=""> 
+
+<!-- <img class="background-bottom" src="./images/bg-section-top-mobile-2.svg" alt="" srcset="">  -->
 </div>
-<div class="msg-container-box">
-  <img class="picStyle" src="./images/illustration-flowing-conversation.svg" alt="" srcset="">
-  <h5 class="title">
-    Flowing Conversations
-  </h5>
-    <p>
-      You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-      just-in-time loading for a more natural flow.
+<img class="background-bottom" src="./images/bg-section-bottom-mobile-2.svg" alt="" srcset="">
+
+  <div class="under-container msg-container-box">
+    <img class="picStyle" src="./images/illustration-flowing-conversation.svg" alt="" srcset="">
+    <h3 class="title">
+      Flowing Conversations
+    </h3>
+      <p class="msg-content">
+        You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+        just-in-time loading for a more natural flow.
+      
+      </p>
+  </div>
+  <div class="msg-container-box Grow-Together" >
+    <img class='background' src="./images/bg-section-top-mobile-1.svg" alt="" srcset=""> 
+
+    <img class="picStyle" src="./images/illustration-your-users.svg" alt="" srcset="">
+    <h3 class="title">
+      Your Users
+    </h3>
+    <p class="msg-content">
+      It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+      once signed in to your app, your users can start chatting immediately.
     
     </p>
-</div>
-<div class="msg-container-box">
-  <img class="picStyle" src="./images/illustration-your-users.svg" alt="" srcset="">
-  <h5 class="title">
-    Your Users
-  </h5>
-  <p>
-    It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-    once signed in to your app, your users can start chatting immediately.
-  
-  </p>
-</div>
+  </div>
+  <img class="background-bottom" src="./images/bg-section-bottom-mobile-2.svg" alt="" srcset="">
 
-<h2> Ready To Build Your Community?</h2>
- 
-  <button class="buttons one-edge-shadow">Get Started For Free</button>
-  </section>
+  
+  <h2 class="title"> Ready To Build Your Community?</h2>
+   
+    <button class="buttons one-edge-shadow">Get Started For Free</button>
+  
+</section>
 
 <!-- <img src="./images/bg-section-top-desktop-1.svg" alt="" srcset=""> -->
- <footer>
-  <form >
-    <h4>Newsletter</h4>
-    <p>
+ <footer class="footer-container">
+  <!-- <img class="footer-container-background" src="./images/bg-section-bottom-mobile-2.svg" alt="" srcset=""> -->
+  <img class="footer-container-background" src="./images/bg-section-bottom-mobile-1.svg" alt="" srcset="">
+
+  <form class="Newsletter-form-container centr">
+    <h3>Newsletter</h3>
+    <p class="Newsletter-form-content">
       To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
       send you spam or pass on your email address
     
@@ -97,27 +112,24 @@
     <input type="email">
     <button type="submit"> Subscribe</button>
   </form>
-    
-  <p>
+  <div class="contact-container centr">
+    <h1 class="footer-title" >hunddle</h1>
+  <p class="Newsletter-form-content">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
     vestibulum a, ultrices quis sem.
     
   </p>
-  <span>Phone: +1-543-123-4567</span>
+  <span class="Newsletter-form-content">Phone: +1-543-123-4567</span>
   
-  <span>example@huddle.com</span> 
+  <span class="Newsletter-form-content">example@huddle.com</span> 
+  </div>
+  <!-- <img class="footer-container-background" src="./images/bg-section-bottom-mobile-2.svg" alt="" srcset=""> -->
+
+  <!-- <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </p> -->
+
  </footer>
-
-<!-- <img src="./images/bg-section-bottom-mobile-1.svg" alt="" srcset=""> -->
-<!-- <img src="./images/bg-section-bottom-mobile-2.svg" alt="" srcset=""> -->
-
- 
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>

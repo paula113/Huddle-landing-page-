@@ -52,12 +52,34 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-header {
+.top-bar {
   display: flex;
   flex-direction: row;
-  /* justify-content: flex-end; */
-  /* justify-content: space-around; */
+  justify-content: space-between;
 }
+.top-bar div {
+  display: flex;
+  flex-direction: row;
+}
+.icon-chat {
+  color: hsl(322, 100%, 66%);
+  margin: 2rem 0 2rem 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.top-bar button {
+  /* text-align: center; */
+  height: 2rem;
+  margin: 1.5rem auto;
+  border-radius: 1rem;
+  color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem 2rem;
+}
+
 .title {
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -69,6 +91,7 @@ header {
   font-weight: 400;
   text-align: center;
   margin: 1rem;
+  font-size: 0.8rem;
 }
 .buttons {
   background-color: hsl(322, 100%, 66%);
@@ -97,8 +120,6 @@ header {
   /* padding: 2rem; */
 }
 .msg-container-box {
-  /* background-color: violet; */
-  margin: 1rem;
   overflow: hidden;
   text-align: center;
 }
@@ -117,21 +138,73 @@ header {
   font-size: 3rem;
 }
 .Grow-Together {
+  margin-top: 0;
   background-color: hsl(207, 100%, 98%);
+  /* background-color: yellow; */
 }
 .background {
   background-color: white;
 }
 .background-bottom {
-  background-color: hsl(207, 100%, 98%);
+  margin-top: 0;
+  /* background-color: yellow; */
+  width: 100%;
 }
 .picStyle {
   max-width: 100%;
   height: auto;
   display: block;
-  /* margin: 2rem auto; */
+  margin: 5rem auto;
 }
-
-footer {
-  background-color: teal;
+.under-container {
+  width: 80%;
+}
+.centr {
+  width: 80%;
+  margin: 2rem auto;
+  color: rgb(255, 255, 255);
+}
+.Newsletter-form-container h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.Newsletter-form-container input {
+  border: none;
+  height: 1.5rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  padding: 0.3rem;
+}
+.Newsletter-form-container button {
+  border: none;
+  /* height: 2rem; */
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  position: relative;
+  left: 60%;
+  background-color: hsl(322, 100%, 66%);
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.Newsletter-form-content {
+  color: rgb(201, 201, 201);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.5rem;
+  margin: 1rem 0;
+  font-weight: 200;
+}
+.contact-container {
+}
+.footer-container {
+  background-color: hsl(192, 100%, 9%);
+  padding-bottom: 1rem;
+}
+.footer-title {
+  font-family: "Poppins", sans-serif;
+}
+.footer-container-background {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
 }
